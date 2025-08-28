@@ -54,9 +54,9 @@ class BLEComm @Inject internal constructor(
     companion object {
 
         private const val WRITE_DELAY_MILLIS: Long = 10
-        private const val SERVICE_UUID = "669A9001-0008-968F-E311-6050405558B3"
-        private const val READ_UUID = "669a9120-0008-968f-e311-6050405558b3"
-        private const val WRITE_UUID = "669a9101-0008-968f-e311-6050405558b3"
+        private const val SERVICE_UUID = "00002a00-0000-1000-8000-00805f9b34fb"
+        private const val READ_UUID = "0783b03e-8535-b5a0-7140-a304d2495cb8"
+        private const val WRITE_UUID = "0783b03e-8535-b5a0-7140-a304d2495cba"
         private const val CONFIG_UUID = "00002902-0000-1000-8000-00805f9b34fb"
 
         private const val NEEDS_ENABLE_NOTIFICATION = 0x10
